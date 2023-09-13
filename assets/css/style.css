@@ -26,16 +26,16 @@ body {
 } 
 
 .box.b {
-    grid-row: 2;
+    grid-row: 2 / 4;
     grid-column: 1 / 3;
 }
 
 .box.c {
-
+    grid-row: 2 / 4;
 }
 
 .box.d {
-    
+    grid-row: 2 / 4;
 }
 
 .box.e {
