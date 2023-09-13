@@ -12,13 +12,14 @@ body {
     text-align: center;
 }
 
-.container {
-    display: grid;
-    grid-template-columns: auto auto auto;
-}
-
 .box h1 {
     padding: 3rem;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto auto auto auto;
 }
 
 .box.a {
@@ -26,7 +27,7 @@ body {
 } 
 
 .box.b {
-
+    grid-column: 4 / 6;
 }
 
 .box.c {
